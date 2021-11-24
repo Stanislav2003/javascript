@@ -29,7 +29,7 @@ fvocals();*/
     return a+b+c
 
 } console.log(parametres(1,2));*/
-
+ex7
 /*function ex7(){
     //cridar funcio ex3>
     fdata()
