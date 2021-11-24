@@ -47,7 +47,7 @@ fvocals();*/
 }
 console.log(ex8(30,20))*/
 
-
+ex9
 /*let x,y;
 x=30
 y=20
