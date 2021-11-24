@@ -38,7 +38,7 @@ fvocals();*/
     return parametres(1,2,3)
 }
     console.log(ex7())*/
-
+ex8
 /*function ex8(X,Y){
 
     if(X==30 || Y==30 || X+Y==30){
