@@ -4,21 +4,21 @@ function fnomCognoms(nom='Stan',Cognom=' Sevdalinov'){
 console.log('Hola '+ nom +Cognom)}
 fnomCognoms();*/
 
-/*function fnom(num=10){
+/*ex2function fnom(num=10){
 console.log(typeof num)}
 fnom();*/
 
-/*function fdata(data= new Date()){
+/*ex3function fdata(data= new Date()){
     console.log(data)}
     //fdata()*/
 
-/*function ffuncio(){
+/*ex4function ffuncio(){
     var x = 'bondia'
     console.log(x)
 }
 console.log(x);*/
 
-/*function fvocals(paraula='hola'){
+/*ex5function fvocals(paraula='hola'){
     var nombreVocals = paraula.match(/[aeiou]/gi).length
     console.log(nombreVocals);
 }
@@ -30,7 +30,7 @@ fvocals();*/
 
 } console.log(parametres(1,2));*/
 
-/*function ex7(){
+/*ex7function ex7(){
     //cridar funcio ex3>
     fdata()
 
@@ -70,9 +70,48 @@ console.log(variable(5))*/
 /*let variable = (x) => x.toLowerCase()
 console.log(variable('BONDIA'))*/
 
+/*let variable = (x,y) => {
+    if(x!=null && y!=null)
+    return('els dos no son null')
+    if(x==null && y==null){
+        return('els dos son null')
+    }
+    if (x!=null) 
+    return (x)
+    if (y!=null)
+    return(y)
+ }
+console.log(variable(null,null));*/
 
 
-   
+
+/*var posicio = (x,y) => {
+
+    return (x.length-x.indexOf(y))
+}
+console.log(posicio('Hola senyor Ramon','senyor'));
+
+var dividir = (x,y) => {
+
+    return y.substr(x,y.length)
+}
+
+console.log(dividir(posicio('Hola senyor Ramon','senyor'),'Hola senyor Ramon'))*/
+
+
+
+
+   var equacio1 = (x) => x + x + x
+
+   console.log(mite(4));
+
+
+   var equacio2 = (p, n, r, t) => p * Math.pow(1 + (r / n), n * t)
+
+   console.log(equacio2 (1,1,1,2));
+
+
+
 
 
 
