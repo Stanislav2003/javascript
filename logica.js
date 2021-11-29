@@ -25,7 +25,7 @@ y=(y>=10 && y<=50) ? console.log("esta en el rang")
                    :console.log("no esta en el rang ");*/
 
 
-                   var a = 7
+                  /* var a = 7
 
                    switch(true){
                        case (a<5):
@@ -47,6 +47,16 @@ y=(y>=10 && y<=50) ? console.log("esta en el rang")
                        case (a>=9 && a<10):
                            console.log("Molt bé senyor, un excel·lent")
                        break
+                   }*/
+
+                   var a;
+                   a=parseInt(prompt("Introdueix numero: "));
+                   sumador =0;
+                   constante=0
+                   
+                   while(a>constante){
+                       sumador= sumador + 1
+                       constante=sumador+constante
+                   
                    }
-
-
+                   console.log(sumador);
