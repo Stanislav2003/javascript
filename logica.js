@@ -49,14 +49,102 @@ y=(y>=10 && y<=50) ? console.log("esta en el rang")
                        break
                    }*/
 
-                   var a;
+                   
+                   
+                   
+                  /* var a;
                    a=parseInt(prompt("Introdueix numero: "));
                    sumador =0;
-                   constante=0
+                   constante=1
+                   contador=0
+                   sumador2=2
+                   acumulador=0
                    
-                   while(a>constante){
+                   while(a>=acumulador){
                        sumador= sumador + 1
-                       constante=sumador+constante
+                       contador=sumador2+constante
+                       constante=0
+                       sumador2++
+                       acumulador+=contador
+
                    
                    }
-                   console.log(sumador);
+                   console.log(sumador);*/
+
+                   
+                   /* ex5 
+                   
+                   var regex = /(\d+)/g;
+
+                    var variable1=prompt("introdueix frase");
+                    console.log (variable1.match(regex));
+
+                    var n=0;
+                    for(i=0; i<variable1.match(regex).length; i++){
+
+                    n+=Number(variable1.match(regex)[i]);
+
+                    }
+                     console.log(n);*/
+                   
+                  
+                  
+                  
+                  
+                  
+                  
+                   /* ex6 var a;
+                   var b;
+                   var c;
+                       a=parseInt(prompt("Introdueix el primer valor: "));
+                       b=parseInt(prompt("Introdueix el segon valor: "));
+                       c=parseInt(prompt("Introdueix el tercer valor: "));
+                       if ( a>=b && a>=c){
+                           if(b>c)
+                           console.log(a,b,c)
+                       else
+                           console.log(a,c,b)
+                       }
+                       if(b>=a && b>=c){
+                           if (a>c)
+                           console.log(b,a,c)}*/
+
+                    
+
+
+
+                       /* var regex = /(\d+)/g;
+
+                        var variable1=prompt("introdueix frase");
+                        console.log (variable1.match(regex));
+
+                        var n=0;
+                        for(i=0; i<variable1.match(regex).length; i++){
+
+                            n+=Number(variable1.match(regex)[i]);
+
+                        }
+                        console.log(n);*/
+
+
+                       /* var num = prompt('Introdueix numero que vulgui ')
+                        var contador = 0
+
+                        while (contador<num){
+                        contador++
+                        console.log(contador);
+                        
+                        console.log("El número és senar");
+                        contador++
+                        console.log(contador++);
+                        console.log("El número és parell");
+                        }*/
+
+
+                        
+
+
+
+
+
+                
