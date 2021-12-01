@@ -141,6 +141,57 @@ y=(y>=10 && y<=50) ? console.log("esta en el rang")
                         }*/
 
 
+
+                        
+                       /* var fileres =5
+                            for(var i = 0; i < fileres; i++){
+                                let fileres = ''
+                                for (var j = 0; j < i + 1 ; j++){
+                                    fileres=fileres + '*'   
+                                }   
+                            console.log(fileres);
+                            }*/
+
+/*
+                            var contador1 = 0;
+                            var multiple3 = 0;
+                            var multiple5 = 0;
+                            
+                            do {
+                                if (contador1 % 3 == 0) {
+                                    multiple3 = contador1 + multiple3;
+                                    console.log(contador1);
+                                }
+                                else if (contador1 % 5 == 0) {
+                                    multiple5 = contador1 + multiple5;
+                                    console.log(contador1);
+                                }
+                                contador1++;
+                                
+                            } while (contador1 <= 1000);
+                            
+                            console.log("suma total: " +multiple3+multiple5 + " unitats");*/
+                     
+
+
+                     /*   var files=5
+                        var cont = 0
+
+                        files:
+                        for(var i = 0; i < files; i++){
+                            let files = ''
+                            for (var j = 0; j < i + 1 ; j++){
+                                files=files + '* ' 
+                            }   
+                            cont++
+                            if (cont % 2 != 0)
+                            console.log(files)
+                            continue files
+                            
+                        }*/
+
+                                        
+
                         
 
 
