@@ -143,7 +143,7 @@ y=(y>=10 && y<=50) ? console.log("esta en el rang")
 
 
                         
-                       /* var fileres =5
+                      /* var fileres =5
                             for(var i = 0; i < fileres; i++){
                                 let fileres = ''
                                 for (var j = 0; j < i + 1 ; j++){
@@ -190,6 +190,26 @@ y=(y>=10 && y<=50) ? console.log("esta en el rang")
                             
                         }*/
 
+                        
+                        
+                      var numeroParell
+                        numeroParell=parseInt(prompt("quantes xifres te el seu numero parell?: "));
+                        
+                        
+                        var arrayNum= new Array(numeroParell)
+
+                        for(var i=0; i<arrayNum.length; i++){
+                            X=parseInt(prompt("introdueix xifra numero" + i + "del numero parell" ));
+                        
+                            arrayNum[i]=X
+
+
+                        }
+                        const revertit = arrayNum.reverse();
+                        
+                            console.log(revertit);  
+                        
+                        
                                         
 
                         
