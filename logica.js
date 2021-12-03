@@ -210,7 +210,7 @@ y=(y>=10 && y<=50) ? console.log("esta en el rang")
                             console.log(revertit);  
                         
                         
-                                        
+                                        function cambi
 
                         
 

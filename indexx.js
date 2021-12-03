@@ -17,8 +17,7 @@ fnom();*/
     console.log(x)
 }
 console.log(x);*/
-
-/*ex5function fvocals(paraula='hola'){
+ /*function fvocals(paraula='hola'){
     var nombreVocals = paraula.match(/[aeiou]/gi).length
     console.log(nombreVocals);
 }
