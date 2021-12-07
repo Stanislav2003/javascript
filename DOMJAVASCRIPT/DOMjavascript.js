@@ -8,8 +8,7 @@ nodeTitol.innerHTML="PRIMER TITOL"*/
 /*ex2
 document.write("s'esta executant a la URL:"+ "\n" + document.URL)*/
 
-
-document.write("bon dia")
+document.getElementById("titol").style.color = 'yellow';
 
 
 
