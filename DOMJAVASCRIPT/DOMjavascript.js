@@ -4,11 +4,12 @@ var nodeTitol=document.getElementById("titol")
 nodeTitol.innerHTML="PRIMER TITOL"*/
 
 
-/*
-ex2
+
+/*ex2
 document.write("s'esta executant a la URL:"+ "\n" + document.URL)*/
 
 
+document.write("bon dia")
 
 
 
