@@ -13,3 +13,11 @@
 }*/
 
 
+window.onload=function(){
+    var contador=0;
+    document.getElementById("boton").onclick=function(){
+        contador++;
+        document.getElementById("mostra").innerHTML=contador;
+    }
+}
+
